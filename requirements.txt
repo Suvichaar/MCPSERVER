@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+python-dotenv
+psycopg2-binary
+boto3
+azure-storage-blob
+openai
+azure-ai-ml 
+azure-identity 
+azure-core
+psycopg2-binary
