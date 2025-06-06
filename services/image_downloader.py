@@ -58,7 +58,7 @@ def download_and_upload_author_images():
     # ✅ Download images
     downloader = simp.simple_image_download()
     for author in authors:
-        downloader.download(author, 5)
+        downloader.download(author, 15)
 
     # ✅ Upload to S3 and record metadata
     s3 = boto3.client("s3",
